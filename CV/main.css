@@ -1,0 +1,20 @@
+.encabezado {
+    display: flex;
+}
+
+.caja-foto {
+    width: 20%;
+}
+
+.caja-titulo {
+  width: 90%;
+  background-color: rgb(97, 47, 0);
+  color:rgb(246, 198, 94);
+}
+
+.imagen-cv {
+  width : 250px;
+  height: 199px;
+}
+
+
