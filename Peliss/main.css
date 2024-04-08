@@ -1,0 +1,40 @@
+.alineamientoTitulo{
+    text-align: center;
+
+
+}
+
+ 
+
+.fondoPagina{
+    background-image: url("castilloFondo.webp"  );
+    background-size: cover;
+}
+.grilla{
+ display: grid;
+ grid-template-columns: repeat(3, 500px);
+/*grid-template-rows: 350px;*/
+/*grid-auto-rows: ;*/
+
+}
+
+.fotoDinamica{
+
+ width: 367px;
+ aspect-ratio:1/ 2 ;
+ object-fit: cover;
+} 
+ /*0height: 540px;*/
+
+
+.tituloDeImg {
+  width: 90%;
+  color:rgb(39, 54, 32);
+}
+
+
+.alineadoDeFoto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
