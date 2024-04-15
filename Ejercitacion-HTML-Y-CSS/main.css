@@ -1,0 +1,31 @@
+
+  .alineacion {
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+
+.encabezado{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr))
+    
+}
+
+.aliniacion-flex-direction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+.gap {
+ display: grid;
+ gap: 20px;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 300px 300px;
+
+}
+

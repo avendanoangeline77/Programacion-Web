@@ -13,6 +13,8 @@
 .grilla{
  display: grid;
  grid-template-columns: repeat(3, 500px);
+ 
+ /*gap */
 /*grid-template-rows: 350px;*/
 /*grid-auto-rows: ;*/
 
