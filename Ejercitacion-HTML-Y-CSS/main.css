@@ -29,3 +29,87 @@
 
 }
 
+.grilla_3x3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 70px;
+}
+
+/* colores para cada pokemon */
+
+.pokemon_charizard {
+      background-color:rgb(189, 142, 56);
+      text-align:center;
+      color:rgb(12, 12, 12);
+      border-radius: 10px;
+      
+}
+
+.pokemon_abra {
+  background-color:#f0f8a3;
+  text-align:center;
+  color:rgb(20, 20, 19);
+  border-radius: 10px;
+  
+}
+
+.pokemon_clefable {
+  background-color:rgb(218, 193, 212);
+  text-align:center;
+  color:rgb(8, 8, 8);
+  border-radius: 10px;
+  
+}
+
+.pokemon_mankey{
+  background-color:rgb(255, 221, 235);
+  text-align:center;
+  color:rgb(20, 20, 19);
+  border-radius: 10px;
+  
+}
+
+.pokemon_ninetales{
+  background-color:rgb(241, 221, 184);
+  text-align:center;
+  color:rgb(22, 21, 20);
+  border-radius: 10px;
+  
+}
+
+.pokemon_oddish{
+  background-color:orange;
+  text-align:center;
+  color:rgb(8, 8, 8);
+  border-radius: 10px;
+  
+}
+
+.pokemon_parasect{
+  background-color:rgb(245, 197, 107);
+  text-align:center;
+  color:rgb(7, 7, 6);
+  border-radius: 10px;
+  
+}
+
+.pokemon_paras {
+  background-color:rgb(245, 190, 89);
+  text-align:center;
+  color:rgb(12, 11, 11);
+  border-radius: 10px;
+  
+}
+
+.pokemon_zubat {
+  background-color:rgb(181, 184, 199);
+  text-align:center;
+  color:rgb(3, 3, 3);
+  border-radius: 10px;
+  
+}
+
+
+
+
