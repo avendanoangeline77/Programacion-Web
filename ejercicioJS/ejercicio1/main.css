@@ -1,0 +1,11 @@
+.aliniacion-flex-direction{
+    text-align: center;
+    background-color: rgb(147, 176, 179);
+    border-radius: 40px;
+    width: 300px;
+  }
+.alineacion {
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
