@@ -1,0 +1,20 @@
+.ordenar {
+    display: grid;
+}
+.tarjeta {
+    border-radius: 30px;
+    padding: 40px;
+    margin: 5% auto;
+    background-color: rgb(70, 92, 81);
+
+
+}
+
+.nombDetalles{
+    color: rgb(38, 58, 46);
+    font-family: sans-serif;
+}
+
+.boton {
+  background-color: rgb(8, 55, 109);
+}

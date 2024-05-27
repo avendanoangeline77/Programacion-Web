@@ -1,0 +1,18 @@
+.imagen {
+    width : 350px;
+    height: 400px;
+    border-radius: 30px;
+  }
+
+
+.detalles {
+    margin: 5% auto;
+    padding: 40px;
+}
+
+.nombre_detalle {
+    color: rgb(91, 119, 88);
+    font-family: sans-serif;
+}
+  
+

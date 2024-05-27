@@ -1,0 +1,32 @@
+.tarjetas {
+    border-radius: 30px;
+    padding: 40px;
+    margin: 5% auto;
+    background-color: brown;
+
+}
+
+
+.imagen {
+    width : 230px;
+    height: 250px;
+
+   
+}
+  .nombre_detalle {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+  
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 70px;
+
+}
+.boton {
+  background-color: aqua;
+  width: 100px;
+  height: 40px;
+}
