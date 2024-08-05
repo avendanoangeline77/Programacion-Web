@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  /* Estilo general para el body */
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #52646663;
+  color: #000000;
+  line-height: 1.6;
+  }
+  
+  /* Estilo del header */
+  header {
+  background: #4a554c;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo de navegación en el header */
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  nav ul li {
+  display: inline;
+  margin: 0 1rem;
+  }
+  
+  nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+  color: #f39c12;
+  }
+  
+  /* Estilo del main */
+  main {
+  padding-top: 6rem; /* Ajustado para dar más espacio para el header fijo */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  }
+  
+  /* Estilo de secciones */
+  section {
+  background: #fff;
+  margin-bottom: 2rem; /* Mayor espacio entre secciones */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(98, 114, 134, 0.466);
+  }
+  
+  /* Estilo para h2 en secciones */
+  section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #395e64;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  }
+  
+  /* Estilo del footer */
+  footer {
+  background: #333;
+  color: #7e743ff3;
+  text-align: center;
+  padding: 1rem 2rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo del formulario de contacto */
+  form {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  form label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  }
+  
+  form input,
+  form textarea {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  }
+  
+  form button {
+  padding: 0.75rem;
+  background-color: #2970da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+  background-color: #9c1a8b;
+
+
+  }
+
+
+  @media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  
+    .orientation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
