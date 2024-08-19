@@ -1,3 +1,18 @@
+/* imagen */
+
+.imagen_centrado {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.tamaño_imagen {
+  width: 34%;
+  height: 34%;
+}
+
+
+
 /* Reset básico */
 * {
   margin: 0;
@@ -15,7 +30,7 @@
   
   /* Estilo del header */
   header {
-  background: #4a554c;
+  background: #61768fd8;
   color: #fff;
   padding: 1rem 2rem;
   text-align: center;
@@ -23,7 +38,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
   }
   
   /* Estilo de navegación en el header */
@@ -40,12 +55,12 @@
   nav a {
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   transition: color 0.3s ease;
   }
   
   nav a:hover {
-  color: #f39c12;
+  color: #000000;
   }
   
   /* Estilo del main */
@@ -58,15 +73,15 @@
   
   /* Estilo de secciones */
   section {
-  background: #fff;
-  margin-bottom: 2rem; /* Mayor espacio entre secciones */
+  background: #717c5c;
+  margin-bottom: 4rem; /* Mayor espacio entre secciones */
   padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(98, 114, 134, 0.466);
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(38, 46, 56, 0.466);
   }
   
   /* Estilo para h2 en secciones */
-  section h2 {
+  sectionh2 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -78,7 +93,7 @@
   /* Estilo del footer */
   footer {
   background: #333;
-  color: #7e743ff3;
+  color: #494117f3;
   text-align: center;
   padding: 1rem 2rem;
   position: relative;
@@ -109,8 +124,8 @@
   
   form button {
   padding: 0.75rem;
-  background-color: #2970da;
-  color: #fff;
+  background-color: #828b97;
+  color: #d4d4d4;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -119,7 +134,7 @@
   }
   
   form button:hover {
-  background-color: #9c1a8b;
+  background-color: #000000;
 
 
   }

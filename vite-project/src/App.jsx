@@ -8,6 +8,9 @@ import './index.css'
 const App = () => (
   <div className="App">
   <Header/>
+  <div className='imagen_centrado'>
+    <img className='tamaño_imagen' src='./imgs/fotoo.jpg' />
+  </div>
   <About/>
   <Projects />
   <Contact />

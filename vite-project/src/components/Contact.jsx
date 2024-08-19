@@ -1,10 +1,12 @@
 import React from 'react';
 
 
-export const Contact = () => (
-  <div className="contact">
-    <h2>Contactame por aqui</h2>
-    <form>
+export const Contact = () => {
+  return(
+   <section id="contact">
+    <div>
+     <h2>Contactame por aqui</h2>
+     <form>
       <label>
         Email:
       </label>
@@ -13,6 +15,10 @@ export const Contact = () => (
         Wsp:
       </label>
         <p>1127458362</p>
-    </form>
-  </div>
+     </form>
+    </div>
+    </section>
+
 );
+
+};
