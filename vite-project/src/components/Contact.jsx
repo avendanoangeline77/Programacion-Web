@@ -5,14 +5,14 @@ export const Contact = () => {
   return(
    <section id="contact">
     <div>
-     <h2>Contactame por aqui</h2>
+     <h2>Contactame por aca</h2>
      <form>
       <label>
         Email:
       </label>
         <p>uba.avendanoangelina@gmail.com</p>
       <label>
-        Wsp:
+        Whatsapp:
       </label>
         <p>1127458362</p>
      </form>

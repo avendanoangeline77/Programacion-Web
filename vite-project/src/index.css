@@ -1,3 +1,7 @@
+.color {
+  background-color: white;
+}
+
 /* imagen */
 
 .imagen_centrado {
@@ -23,15 +27,15 @@
   /* Estilo general para el body */
   body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #52646663;
+  background-color: #ffffff;
   color: #000000;
   line-height: 1.6;
   }
   
   /* Estilo del header */
   header {
-  background: #61768fd8;
-  color: #fff;
+  background: #9db183d8;
+  color: #000000;
   padding: 1rem 2rem;
   text-align: center;
   width: 100%;
@@ -53,7 +57,7 @@
   }
   
   nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-weight: 700;
   transition: color 0.3s ease;
@@ -73,11 +77,11 @@
   
   /* Estilo de secciones */
   section {
-  background: #a8b988;
+  background: #a2ac91;
   margin-bottom: 4rem; /* Mayor espacio entre secciones */
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 6px 12px rgba(84, 94, 105, 0.466);
+  box-shadow: 0 6px 12px rgba(141, 153, 167, 0.466);
   }
   
   /* Estilo para h2 en secciones */
@@ -85,7 +89,7 @@
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #395e64;
+  border-bottom: 2px solid #000000;
   padding-bottom: 0.5rem;
   display: inline-block;
   }

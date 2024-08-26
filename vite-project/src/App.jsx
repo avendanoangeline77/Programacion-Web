@@ -6,10 +6,10 @@ import {About} from './components/About'
 import './index.css'
 
 const App = () => (
-  <div className="App">
+  <div  className="color App">
   <Header/>
   <div className='imagen_centrado'>
-    <img className='tamaño_imagen' src='./imgs/fotoo.jpg' />
+    <img className='tamaño_imagen' src='./imgs/monta.webp' />
   </div>
   <About/>
   <Projects />
