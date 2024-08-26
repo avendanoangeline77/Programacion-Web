@@ -73,11 +73,11 @@
   
   /* Estilo de secciones */
   section {
-  background: #717c5c;
+  background: #a8b988;
   margin-bottom: 4rem; /* Mayor espacio entre secciones */
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 6px 12px rgba(38, 46, 56, 0.466);
+  box-shadow: 0 6px 12px rgba(84, 94, 105, 0.466);
   }
   
   /* Estilo para h2 en secciones */
